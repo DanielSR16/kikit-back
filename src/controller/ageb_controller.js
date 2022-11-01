@@ -5,8 +5,7 @@ const controllerAGEB = {}
 
 
 controllerAGEB.agebs_cp = (req,res)=>{
-    
-    console.log(req.body)
+
    
     modelAGEB.agebs_cp(req.body,function(resultado){
         res.send(resultado)
